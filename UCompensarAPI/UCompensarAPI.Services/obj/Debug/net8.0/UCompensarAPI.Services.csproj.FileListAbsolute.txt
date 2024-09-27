@@ -1,0 +1,17 @@
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Services\bin\Debug\net8.0\UCompensarAPI.Services.deps.json
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Services\bin\Debug\net8.0\UCompensarAPI.Services.dll
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Services\bin\Debug\net8.0\UCompensarAPI.Services.pdb
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Services\obj\Debug\net8.0\UCompensarAPI.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Services\obj\Debug\net8.0\UCompensarAPI.Services.AssemblyInfoInputs.cache
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Services\obj\Debug\net8.0\UCompensarAPI.Services.AssemblyInfo.cs
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Services\obj\Debug\net8.0\UCompensarAPI.Services.csproj.CoreCompileInputs.cache
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Services\obj\Debug\net8.0\UCompensarAPI.Services.dll
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Services\obj\Debug\net8.0\refint\UCompensarAPI.Services.dll
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Services\obj\Debug\net8.0\UCompensarAPI.Services.pdb
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Services\obj\Debug\net8.0\ref\UCompensarAPI.Services.dll
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Services\bin\Debug\net8.0\UCompensarAPI.Common.dll
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Services\bin\Debug\net8.0\UCompensarAPI.DataAccess.dll
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Services\bin\Debug\net8.0\UCompensarAPI.Common.pdb
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Services\bin\Debug\net8.0\UCompensarAPI.DataAccess.pdb
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Services\obj\Debug\net8.0\UCompensarAPI.Services.csproj.AssemblyReference.cache
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Services\obj\Debug\net8.0\UCompens.65D807BF.Up2Date

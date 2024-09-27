@@ -1,0 +1,143 @@
+<div class="gif-container">
+  <div class="cabecera3 img-fluid" alt="..."></div>
+  <div class="text-inside">
+    ¡MUEVE TU MUNDO!
+  </div>
+</div>
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-12">
+      <table class="table table-bordered table-striped text-center w-100" id="table">
+        <thead>
+          <tr>
+            <th colspan="11" class="text-center">SERVICIOS
+              <!-- Botón para abrir el modal -->
+              <button type="button" class="btn btn-success float-right" data-bs-toggle="modal" data-bs-target="#exampleModal" >
+                Nuevo servicio
+              </button>
+            </th>
+          </tr>
+          <tr>
+            <th>ID servicio</th>
+            <th>Nombre de servicio</th>
+            <th>Correo</th>
+            <th>Teléfono</th>
+            <th>Fecha de inicio</th>
+            <th>Fecha de fin</th>
+            <th>Tarifa</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="grid">
+        </tbody>
+      </table>
+
+     
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content" style="background-color: #E6FFEF;" style="color:#212529BF;">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel" >DATOS DEL SERVICIO</h5>
+              <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form id="supportForm">
+                <div class="form-group">
+                  <label for="nombre_usuario">Tipo de servicio</label>
+                  <select class="form-control" id="id_tipo_servicio" required>
+                    <option value="0">Seleccionar</option>
+                    <option value="1">Alquiler de patineta</option>
+                    <option value="2">Tour guiado</option>
+                    <option value="3">Asistencia en carretera</option>
+                    <option value="4">Alquiler corporativo</option>
+                 </select>
+                </div>
+                <div class="form-group">
+                  <label for="fecha_inicio">Fecha de inicio</label>
+                  <input type="datetime-local" class="form-control" id="fecha_inicio" required>
+                </div>
+                <div class="form-group">
+                  <label for="fecha_fin">Fecha de fin</label>
+                  <input type="datetime-local" class="form-control" id="fecha_fin" required>
+                </div>
+                <div class="form-group">
+                  <label for="duracion_servicio">Duración de servicio (minutos)</label>
+                  <input type="text" class="form-control" id="duracion_servicio" readonly>
+                </div>
+                <div class="form-group">
+                  <label for="tarifa">Tarifa (Pesos Colombianos)</label>
+                  <input type="number" class="form-control" id="tarifa" readonly>
+                </div>
+                <div class="form-group">
+                  <label for="estado">Estado</label>
+                  <select class="form-control" id="estado" required>
+                    <option value="activo">Activo</option>
+                    <option value="inactivo">Inactivo</option>
+                  </select>
+                </div>
+                <div class="alert alert-danger" id="error_message" style="display:none;">La fecha de fin no puede ser anterior a la fecha de inicio.</div>
+                
+              </form>
+              <button  class="btn btn-primary" id="crear_ticket" (click)="registrar()">Crear servicio</button>
+            </div>
+          </div>
+        </div>
+      </div> 
+    
+      <div class="modal fade" id="actualizarModal" tabindex="-1" aria-labelledby="actualizarModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content" style="background-color: #E6FFEF;" style="color:#212529BF;">
+            <div class="modal-header">
+              <h5 class="modal-title" id="actualizarModalLabel" >DATOS DEL SERVICIO</h5>
+              <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form id="supportForm">
+                <div class="form-group">
+                  <input type="hidden" #id_servicio>
+                  <label  for="tipo_servicio">Tipo de servicio</label>
+                  <select #tipoServicioSelect class="form-control" id="id_tipo_servicio_editar" required>
+                    <option value="0">Seleccionar</option>
+                    <option value="1">Alquiler de patineta</option>
+                    <option value="2">Tour guiado</option>
+                    <option value="3">Asistencia en carretera</option>
+                    <option value="4">Alquiler corporativo</option>
+                 </select>
+                </div>
+                <div class="form-group">
+                  <label for="fecha_inicio_editar">Fecha de inicio</label>
+                  <input #fechaInicioInput type="datetime-local" class="form-control" id="fecha_inicio_editar" required>
+                </div>
+                <div class="form-group">
+                  <label for="fecha_fin_editar">Fecha de fin</label>
+                  <input #fechaFinInput type="datetime-local" class="form-control" id="fecha_fin_editar" required>
+                </div>
+                <div class="form-group">
+                  <label for="duracion_servicio_editar">Duración de servicio (minutos)</label>
+                  <input type="text" class="form-control" id="duracion_servicio_editar" readonly>
+                </div>
+                <div class="form-group">
+                  <label for="tarifa_editar">Tarifa (Pesos Colombianos)</label>
+                  <input #tarifaInput type="number" class="form-control" id="tarifa_editar" readonly>
+                </div>
+                <div class="form-group">
+                  <label for="estado_editar">Estado</label>
+                  <select #estadoSelect class="form-control" id="estado_editar" required>
+                    <option value="activo">Activo</option>
+                    <option value="inactivo">Inactivo</option>
+                  </select>
+                </div>
+                <div class="alert alert-danger" id="error_message_editar" style="display:none;">La fecha de fin no puede ser anterior a la fecha de inicio.</div>
+                
+              </form>
+              <button  class="btn btn-primary" id="editar_servicio" (click)="actualizar()">Editar Servicio</button>
+            </div>
+          </div>
+        </div>
+      </div> 

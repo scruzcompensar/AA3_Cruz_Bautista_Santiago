@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Caveat:wght@400..700&family=Grenze+Gotisch:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Shadows+Into+Light&family=Whisper&display=swap');
+.cabecera {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)),
+        url(https://media1.tenor.com/m/tGIa9UWl0scAAAAC/electric-scooter-par-sawar-hokar-ehan-bhat.gif);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;   
+        position: relative;  
+        position: relative;  
+}
+
+/*css para modificar texto dentro del gif del encabezado*/
+.text-inside {
+  position: absolute;
+  left: 50%; /* Para alinear el texto al centro horizontal del GIF */
+  top: 38%; /* Para alinear el texto al centro vertical del GIF */
+  transform: translate(-50%, -50%); /* Para centrar el texto horizontal y verticalmente dentro del GIF */
+  z-index: 1; /* Para colocar el texto delante del GIF */
+  padding: 5px; /* Espaciado interno */
+  font-family: "Shadows Into Light", cursive; 
+  font-size: 42px;  
+}
+
+
+ .nosotros   {
+    font-family: "Shadows Into Light", cursive;    
+}     
+/*css para aumentar el espacio entre el gif del a cabecera y la sección de nosotros*/
+
+.mb-3   {
+    margin-top: 2.0rem ;     
+}
+ 
+/* imagen de la patineta que está la lado del nosotros*/  
+
+.imagen2{
+    width: 50%;   
+      
+}
+
+/*ccs para la informacion que está entre el nosotros y  los servicios*/ 
+
+.info2 {
+        margin-left: 20px; 
+        text-align: center;      
+}
+
+/*css para bajar separar el texto, de la sección de nosotros*/
+.mb-4   {
+    margin-top: 11.5rem ;     
+}

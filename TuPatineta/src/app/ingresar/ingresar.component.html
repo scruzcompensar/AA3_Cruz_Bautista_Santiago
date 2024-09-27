@@ -1,0 +1,39 @@
+<div class="gif-container">
+  <div class="cabecera3 img-fluid" alt="..."></div>
+  <div class="text-inside">
+    ¡MUEVE TU MUNDO!
+  </div>
+</div>
+
+<!--<img id="cabecera3"  class="img-fluid cabecera3" alt="...">-->
+
+  <div class="container">
+    <div class="row mb-3">
+        <div class="col-md-5 mb-3">
+        <h2 class="ingresar"><strong>¡BIENVENIDO DE VUELTA!</strong></h2>
+          <p> En tu cuenta encontrarás: </p>
+          <ul>
+            <p style="display: flex; align-items: center;"><i class= "fa fa-star" style="color: #DCC85B;"></i>Ofertas personalizadas: ¡Disfruta de descuentos y promociones exclusivas!</p>
+            <p style="display: flex; align-items: center;"><i class= "fa fa-star" style="color: #DCC85B;"></i>Rutas favoritas: Guarda y redescubre tus recorridos preferidos.</p>
+            <p style="display: flex; align-items: center;"><i class= "fa fa-star" style="color: #DCC85B;"></i>Novedades emocionantes: ¡Mantente al día con las últimas patinetas!</p>
+          </ul> 
+          <p class="ingresar">🌟🚀 ¡Tu próxima aventura comienza ahora! 🌍🌟</p>
+        </div>
+      <div class="col-md-6 mb-3">
+        <h2 class="ingresar">Ingresar</h2>
+        <form>
+            <div class="form-group">
+              <label for="correo">Usuario:</label>
+              <input #usuario type="email" class="form-control" id="usuario" placeholder="Ingrese su correo electrónico">
+            </div>
+            <div class="form-group">
+                <label for="contrasena">Contraseña:</label>
+                <input #contrasena type="password" class="form-control" id="contrasena" placeholder="Ingrese su contraseña">
+            </div>  
+            </form>
+            <button class="btn btn-primary" id="btnIngresar" (click)="ingresoClick()">¡A Rodar!</button>
+        </div>
+      </div>
+  </div> 
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>

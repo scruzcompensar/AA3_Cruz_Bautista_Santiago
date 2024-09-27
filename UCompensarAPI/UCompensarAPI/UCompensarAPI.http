@@ -1,0 +1,6 @@
+@UCompensarAPI_HostAddress = http://localhost:5059
+
+GET {{UCompensarAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

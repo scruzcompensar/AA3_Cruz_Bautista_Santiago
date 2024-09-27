@@ -1,0 +1,222 @@
+.navbar-brand {
+    color: #04bd7d; /* Color del texto del enlace al pasar el ratón */
+    text-decoration: underline #04bd7d;
+    color: #ffffff;
+    font-family: "Shadows Into Light", cursive;    /* Cambia la fuente del texto */
+    left: 10px; /* Alinea el elemento a la izquierda */
+    top: 10px; /* Alinea el elemento en la parte superior */
+    z-index: 1001; /* Asegura que esté delante del menú de navegación */
+  }
+
+  .navbar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    background-color: transparent; /* Fondo transparente */
+  }
+
+  .navbar-nav .nav-link {
+    color: #ffffff; /* Color del texto del enlace */
+    text-decoration: underline white; /* Subrayado con blanco */
+    transition: color 0.3s; /* Transición suave para el cambio de color */
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #04bd7d; /* Color del texto del enlace al pasar el ratón */
+    text-decoration: underline #04bd7d;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Caveat:wght@400..700&family=Grenze+Gotisch:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Shadows+Into+Light&family=Whisper&display=swap');
+.cabecera {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)),
+        url(https://media1.tenor.com/m/tGIa9UWl0scAAAAC/electric-scooter-par-sawar-hokar-ehan-bhat.gif);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;   
+        position: relative;  
+        position: relative;  
+}
+
+/*css para modificar texto dentro del gif del encabezado*/
+.text-inside {
+  position: absolute;
+  left: 50%; /* Para alinear el texto al centro horizontal del GIF */
+  top: 38%; /* Para alinear el texto al centro vertical del GIF */
+  transform: translate(-50%, -50%); /* Para centrar el texto horizontal y verticalmente dentro del GIF */
+  z-index: 1; /* Para colocar el texto delante del GIF */
+  padding: 5px; /* Espaciado interno */
+  font-family: "Shadows Into Light", cursive; 
+  font-size: 42px;  
+}
+
+
+ .nosotros   {
+    font-family: "Shadows Into Light", cursive;    
+}     
+/*css para aumentar el espacio entre el gif del a cabecera y la sección de nosotros*/
+
+.mb-3   {
+    margin-top: 2.0rem ;     
+}
+ 
+/* imagen de la patineta que está la lado del nosotros*/  
+
+.imagen2{
+    width: 50%;   
+      
+}
+
+/*ccs para la informacion que está entre el nosotros y  los servicios*/ 
+
+.info2 {
+        margin-left: 20px; 
+        text-align: center;      
+}
+
+/*css para bajar separar el texto, de la sección de nosotros*/
+.mb-4   {
+    margin-top: 11.5rem ;     
+}
+
+/*css para aumentar el espacio entre el texto de localidades, +barrios etc de la sección de nosotros*/
+.mb-5  {
+    
+    margin-top: 4rem;     
+}
+
+/*css para aumentar el espacio entre el texto las tarjetas, del subtitulo Nuestros Servicios*/
+
+.mb-6  {
+    
+    margin-top: 11rem;     
+}
+
+.servicios {
+    font-family: "Shadows Into Light", cursive;    
+    text-align: center;
+}
+
+/*css para el modulo servicios, la que se debe replicar en los otros modulos*/
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .row.no-gutters > [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .card {
+    height: 100%; 
+    
+  }
+  .card img {
+    height: 200px;
+    object-fit: cover; 
+ }
+
+ 
+ .card-body {
+  background-color:#343a40 ; 
+      
+}
+
+.card-title {
+  color: #f0f8ff;
+}
+
+.card-text {
+  color: #f0f8ff;
+}
+
+.btn-primary {
+   background-color: #198754 ;
+   color: #fff;
+   border-color: #198754;
+   margin-top: 15px;
+   margin-bottom: 30px;
+  }
+.btn-primary:hover {
+    background-color: #fff;
+    color: black;
+  }
+
+  /*css para cambiar los iconos de contactenos*/
+
+  #contactenos .row {
+    display: flex;
+    align-items: flex-start; /* Alinea verticalmente el contenido al inicio */
+  }
+  
+  #contactenos .infocontacto {
+    margin-bottom: 20px; /* Ajusta el margen según sea necesario */
+  }
+  
+  #contactenos .contact-info {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #contactenos .contact-info li {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los iconos con el texto */
+    margin-bottom: 15px; /* Espacio entre cada línea de contacto */
+  }
+  
+  #contactenos .contact-info li i {
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+  }
+  
+#contactenos .social-icons {
+  display: flex;
+  flex-direction: column; /* Alinea los iconos de redes sociales en columna */
+  gap: 15px; /* Espacio entre los iconos */
+  margin-top: 110px;
+  color: #198754; /* Cambia el color de todos los iconos */
+}
+
+#contactenos .social-icons a {
+  color: #fff; /* Cambia el color de todos los textos */
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  font-weight: bold; /* Opcional: hace el texto más grueso */
+  font-size: 1.2rem; /* Opcional: aumenta el tamaño del texto */
+  padding-right: 5px;
+}
+
+#contactenos .social-icons i {
+  color: #198754; /* Asegura que el color se aplique a los iconos */
+ }
+
+#contactenos .social-icons i:hover {
+  color: #fff; /* Cambia el color cuando el usuario pase el ratón sobre el icono (opcional) */
+}
+
+   
+  
+  .infocontacto{
+    font-family: "Shadows Into Light", cursive; 
+  }
+
+  /*css para aumentar el espacio entre el el contactenos y las tarejetas de servicio*/ 
+
+  .mb-7 {
+    margin-top: 4rem;   
+  }
+   /*css footer*/ 
+  footer {
+    background-color: #343a40; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 0; /* Espaciado interno */
+    text-align: center;
+  }
+
+ /*css para modificar el tamaño de la franja gris del footer*/ 
+  .mb-8 {
+    margin-top: 1.0rem;   
+  }
+ 

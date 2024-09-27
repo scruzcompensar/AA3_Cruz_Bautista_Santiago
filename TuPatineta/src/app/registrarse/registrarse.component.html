@@ -1,0 +1,137 @@
+<div class="gif-container">
+  <div class="cabecera2 img-fluid" alt="..."></div>
+  <div class="text-inside">
+    ¡MUEVE TU MUNDO!
+  </div>
+</div>
+
+<!--<img id="cabecera2"  class="img-fluid cabecera2" alt="...">-->
+
+<!--Codigo del formulario para registrarse-->
+  <div class="container">
+    <div class="row mb-3">
+        <div class="col-md-5 mb-3 ">
+          <h2 class="registrarse"><strong>¡SÚMATE AL FUTURO VERDE! </strong></h2>
+        <p>Súmate a nuestra comunidad de aventureros urbanos y descubre la emoción de recorrer la ciudad a bordo de nuestras patinetas eléctricas. Disfruta de:</p>
+        <ul>
+          <p style="display: flex; align-items: center;"><i class="fas fa-check" style="color:#DCC85B;"></i>Libertad y flexibilidad: Recorre la ciudad a tu ritmo, sin horarios ni limitaciones.</p>
+          <p style="display: flex; align-items: center;"><i class="fas fa-check" style="color: #DCC85B;"></i>Comodidad y practicidad: Evita el estrés del transporte público y disfruta del aire libre.</p>
+          <p style="display: flex; align-items: center;"><i class="fas fa-check" style="color: #DCC85B;"></i>Ecología y sostenibilidad: Reduce tu huella de carbono y contribuye a un planeta más verde.</p>
+          <p style="display: flex; align-items: center;"><i class="fas fa-check" style="color: #DCC85B;"></i>Precios increíbles: Aprovecha nuestras promociones exclusivas y descuentos especiales.</p>
+          <p style="display: flex; align-items: center;"><i class="fas fa-check" style="color: #DCC85B;"></i>Acceso a toda la ciudad: Explora diferentes barrios y localidades sin preocupaciones.</p>
+          <p class="registrarse"><strong>💨⚡ ¡La ciudad te espera sobre ruedas eléctricas!⚡💨</strong></p> 
+        </ul>         
+      </div>
+      <div class="col-md-5 mb-3 ">
+        <div class="float-end">
+        <h2 class="registrarse">Registrarse</h2>
+        <form  id="registro">             
+          <div class="mb-2">
+            <input class="form-control form-control-sm" id="nombre" style="color: #fff "type="text" placeholder="Nombre" aria-label=".form-control-sm example" required pattern="^[a-zA-ZáéíóúÁÉÍÓÚüÜñÑ ]*$">
+            <div id="nombre-error" style="color: red; display: none;">Solo se permiten letras.</div>
+          </div>
+          <div class="mb-2">
+            <input class="form-control form-control-sm" id="apellidos" style="color: #fff" type="text" placeholder="Apellidos" aria-label=".form-control-sm example" required pattern="^[a-zA-ZáéíóúÁÉÍÓÚüÜñÑ ]*$">
+            <div id="apellidos-error" style="color: red; display: none;">Solo se permiten letras.</div>
+          </div>
+          <div class="mb-2">
+            <input class="form-control form-control-sm"  type="text" style="color: #fff " id="fecha_nacimiento" placeholder="Fecha de nacimiento" name="fecha_nacimiento" onfocus="(this.type='date')" onblur="(this.type='text')" >
+          </div>
+          <div class="mb-2">
+            <input class="form-control form-control-sm" id="identificacion" style="color: #fff" type="text" placeholder="Identificación" aria-label=".form-control-sm example" pattern="\d+" title="Por favor, ingresa solo números" required oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+          </div>
+          <div class="mb-2">
+            <input class="form-control form-control-sm" id="direccion" style="color: #fff "type="text" placeholder="Direccion" aria-label=".form-control-sm example" required>
+          </div>
+          <div class="mb-2">
+            <input class="form-control form-control-sm" id="telefono" style="color: #fff "type="number" placeholder="Teléfono" aria-label=".form-control-sm example" required   pattern="\d+" title="Por favor, ingresa solo números" required oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+          </div>
+          <div class="mb-2">
+            <input class="form-control form-control-sm"  id="email"  style="color: #fff "type="email" placeholder="Correo" aria-label=".form-control-sm example" required>
+            <div id="email-error" style="color: red; display: none;">El correo electrónico no es válido.</div>
+          </div>
+          <div class="mb-2">
+            <input class="form-control form-control-sm"  id="contraseña" style="color: #fff "type="password" placeholder="Contraseña" aria-label=".form-control-sm example" required pattern="^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{4,}$">
+          </div>                         
+          <!-- Button modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#terminosModal" style="display: inline-block;" style="background-color: #198754; color: #ffffff;" style="margin-right: 10px;">
+          Ver Términos y Condiciones
+        </button>  
+       <!-- Modal -->
+      <div class="modal fade" id="terminosModal" tabindex="-1" aria-labelledby="terminosModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content" style="background-color: #E6FFEF;">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="terminosModalLabel" style="color:#212529BF;">Términos y Condiciones</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="font-family: 'Shadows Into Light', cursive; font-size: 17px;">
+              <div class="form-text">
+              <!-- Contenido del modal -->
+              <h4 style="text-align: center;" style="margin-bottom: 22px;"><STRONG>CONDICIONES PARA EL ALQUILER DE PATINETAS</STRONG></h4>
+              <ul>
+                <h6 style="margin-top: 35px;"><strong>Reservas:</strong></h6>
+                <li>📅 Las reservas pueden realizarse en línea a través de nuestro sitio web.</li>
+                <li>💳 Se requiere un pago anticipado para garantizar la reserva.</li>
+                <li>🧑👩 Solamente se puede realizar reservas, si se es igual o mayor a 18 años de edad</li>
+              </ul>
+              <ul>
+                <h6><strong>Tarifas y Periodos de Alquiler:</strong></h6>
+                <li>⏰ Ofrecemos alquiler por horas, días y semanas, con tarifas variables según la duración del alquiler.</li>
+                <li>💰 Las tarifas pueden variar según la disponibilidad y la temporada.</li>
+              </ul>
+              <ul>
+                <h6><strong>Uso Responsable:</strong></h6>
+                <li>🚸 Los usuarios deben utilizar las patinetas de manera responsable y seguir todas las leyes de tráfico locales.</li>
+                <li>🚫 Las patinetas no deben utilizarse bajo la influencia de alcohol o drogas.</li>
+              </ul>
+              <ul>
+                <h6><strong>Cuidado de las Patinetas:</strong></h6>
+                <li>🔧 Los usuarios son responsables de cuidar adecuadamente las patinetas durante el período de alquiler.</li>
+                <li>💼 Se pueden aplicar cargos adicionales por daños o pérdidas causadas por un uso negligente o abuso.</li>
+              </ul>
+              <ul>
+                <h6><strong>Entrega y Devolución:</strong></h6>
+                <li>🚚 Las patinetas deben ser recogidas y devueltas en nuestras estaciones designadas.</li>
+                <li>⌛ Se pueden aplicar cargos adicionales por retrasos en la devolución de las patinetas.</li>
+              </ul> 
+              <br>                  
+              <h4 style="text-align: center;"><STROng>RESPONSABILIDADES DEL USUARIO</STROng></h4>
+              <ul>
+                <h6 style="margin-top: 25px;"><strong>Seguridad:</strong></h6>
+                <li>⛑️Los usuarios son responsables de usar cascos y equipo de protección adecuados mientras utilizan las patinetas.</li>
+                <li>🚦Deben seguir las normas de seguridad vial y respetar a los peatones y otros usuarios de la vía.</li>
+              </ul> 
+              <ul>
+              <h6><strong>Reporte de Problemas:</strong></h6>
+                <li>🛠️Los usuarios deben informar de inmediato cualquier problema o mal funcionamiento de la patineta al personal de la estación de alquiler.</li>
+              </ul>
+              <ul>
+              <h6><strong>Seguro:</strong></h6>
+                <li>🤕Los usuarios son responsables de cualquier daño o lesión que puedan sufrir mientras utilizan las patinetas y deben contar con su propio seguro de salud y responsabilidad civil.</li>
+              </ul>
+              <br>      
+              <h4 style="text-align: center;"><STRONG>POLÍTICA DE CANCELACIÓN</STRONG></h4>
+              <ul> 
+              <h6 style="margin-top: 25px;"><strong>Cancelaciones:</strong></h6>
+                <li>🗓️Se pueden cancelar las reservas con al menos 24 horas de antelación para recibir un reembolso completo.</li>
+                <li>❌Las cancelaciones realizadas con menos de 24 horas de antelación pueden estar sujetas a cargos por cancelación.</li>
+              </ul> 
+              <ul> 
+                <h6><strong>Condiciones Especiales:</strong></h6>
+                  <li>🌧️En caso de mal tiempo u otras circunstancias imprevistas, la empresa se reserva el derecho de cancelar o modificar las reservas sin previo aviso.</li>
+              </ul> 
+            </div>
+            </div>
+            <div class="modal-footer d-flex align-items-center justify-content-end">
+              <button type="button" class="btn btn" style="background-color: #198754; color: #ffffff;" data-bs-dismiss="modal">Regresar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </form>
+      <button class="btn btn-primary"  (click)="registrar()">¡A bordo!</button>
+    </div>
+    </div>
+    </div>
+  </div>

@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "UCompensarAPI.Controllers.UsuarioController",
+    "Method": "Add",
+    "RelativePath": "api/usuario/AgregarUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "UCompensarAPI.Common.DTOS.UsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UCompensarAPI.Controllers.UsuarioController",
+    "Method": "Delete",
+    "RelativePath": "api/usuario/EliminarUsuario{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UCompensarAPI.Controllers.UsuarioController",
+    "Method": "Modify",
+    "RelativePath": "api/usuario/ModificarUsuario",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "UCompensarAPI.Common.DTOS.UsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UCompensarAPI.Controllers.UsuarioController",
+    "Method": "Get",
+    "RelativePath": "api/usuario/ObtenerPorId{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UCompensarAPI.Controllers.UsuarioController",
+    "Method": "GetAll",
+    "RelativePath": "api/usuario/ObtenerTodos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

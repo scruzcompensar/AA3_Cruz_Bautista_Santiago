@@ -1,0 +1,11 @@
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Common\bin\Debug\net8.0\UCompensarAPI.Common.deps.json
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Common\bin\Debug\net8.0\UCompensarAPI.Common.dll
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Common\bin\Debug\net8.0\UCompensarAPI.Common.pdb
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Common\obj\Debug\net8.0\UCompensarAPI.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Common\obj\Debug\net8.0\UCompensarAPI.Common.AssemblyInfoInputs.cache
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Common\obj\Debug\net8.0\UCompensarAPI.Common.AssemblyInfo.cs
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Common\obj\Debug\net8.0\UCompensarAPI.Common.csproj.CoreCompileInputs.cache
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Common\obj\Debug\net8.0\UCompensarAPI.Common.dll
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Common\obj\Debug\net8.0\refint\UCompensarAPI.Common.dll
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Common\obj\Debug\net8.0\UCompensarAPI.Common.pdb
+C:\Universidad\2024-2\Desarrollo BackEnd\03. Transferencia\AA3_Cruz_Bautista_Santiago\UCompensarAPI\UCompensarAPI.Common\obj\Debug\net8.0\ref\UCompensarAPI.Common.dll

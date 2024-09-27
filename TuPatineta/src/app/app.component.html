@@ -1,0 +1,177 @@
+<nav class="navbar navbar-expand-lg navbar-light" style="position: absolute; top: 10px; right: 10px; z-index: 1000;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Tu Patineta</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarNavAltMarkup"  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/inicio">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#nosotros">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#servicios">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contactenos">Contactenos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/ingresar">Ingresar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/registrarse">Registrarse</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>
+
+<!--la siguiente info, debe ir en todos los modulos, info compartida-->
+
+<div class="info2">
+  <div class="row mb-4">
+    <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+      <div class="text-center">
+        <h1>20</h1>
+        <p>Localidades</p>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+      <div class="text-center">
+        <h1>+1200</h1>
+        <p>Barrios</p>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+      <div class="text-center">
+        <h1>+1000</h1>
+        <p>Usuarios</p>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+      <div class="text-center">
+        <h1>+4000</h1>
+        <p>Patinetas</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--primera fila de tarjetas de iamgenes para los servicios para todos los modulos -->
+
+<h2 class="servicios mb-6 " id="servicios"><STROng>NUESTROS SERVICIOS</STROng></h2>
+<div class="container mt-5">
+  <div class="row no-gutters">
+    <div class="col-md-3 ">
+      <div class="card" style="margin-bottom: 5px;">
+        <img src="https://media1.tenor.com/m/FI6HujH3QmEAAAAC/scooter-laughing.gif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Alquiler x Hora/Día/Semana⏰</h5>
+          <p class="card-text">Ofrecemos opciones de alquiler flexibles que se ajustan a tus necesidades, ya sea por una hora, un día completo o incluso una semana.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card" style="margin-bottom: 20px;">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/98/48/6c/caption.jpg?w=1200&h=1200&s=1" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tours Guiados por la Ciudad 🗺️</h5>
+          <p class="card-text">Únete a nuestros tours guiados en patineta eléctrica y descubre los puntos más emblemáticos y escondidos de la ciudad.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"  style="margin-bottom: 20px;">
+        <img src="https://media1.tenor.com/m/6hVEKMxmQLUAAAAC/cat-laptop.gif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Reservas en Línea 💻</h5>
+          <p class="card-text">Reserva tu patineta eléctrica en línea con anticipación y asegúrate de tener una lista para cuando la necesites.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+        <img src="https://www.greenenergy.com.pe/portal/wp-content/uploads/Estacion-Carga-Solar-Scooter.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Estaciones de Carga 🔋</h5>
+          <p class="card-text">Disfruta de nuestra red de estaciones de carga repartidas por la ciudad para recargar tu patineta cuando lo necesites.</p>
+         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Segunda fila de tarjetas -->
+  <div class="row no-gutters mt-3">
+    <div class="col-md-3">
+      <div class="card ">
+        <img src="https://tupatineta.com/wp-content/uploads/2023/07/Banner-tecnico.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Asistencia en Carretera 🚑</h5>
+          <p class="card-text">Nuestro equipo de asistencia está disponible para ayudarte en caso de que experimentes problemas durante tu viaje.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+        <img src="https://media1.tenor.com/m/3LMqXy8KvPAAAAAC/holiday-discount.gif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Eventos Especiales y Promociones 🎉</h5>
+          <p class="card-text">Participa en nuestros eventos especiales y aprovecha nuestras promociones de temporada.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+        <img src="https://img.freepik.com/vector-premium/tarjeta-verde-bonificacion-programa-fidelizacion-compra-signo-negocio-servicio-al-cliente-retorno-ciento-gane-puntos-monedas-oro-simbolo-ingresos-devolucion-efectivo-ilustracion-vectorial-eps-aislado_502272-981.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Programas de Fidelización 🎁</h5>
+          <p class="card-text">Gana puntos y disfruta de descuentos y promociones exclusivas con cada alquiler.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD1PzUiGz1PEL9nZG0CGHc3-st6n2v5VzKXA&s" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Alquiler Corporativo 🏢</h5>
+          <p class="card-text">Ofrecemos soluciones de movilidad para empresas, incluyendo alquiler de patinetas para eventos corporativos y programas de movilidad para empleados.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- contactenos, tambien se replica en todos los modulos -->
+ <div class="container" id="contactenos">
+  <div class="row">
+    <div class="col-md-6 mb-7">
+      <h2 class="infocontacto">Información de Contacto</h2>
+      <br>
+      <ul class="list-unstyled contact-info">
+        <li><i class="fab fa-whatsapp"></i>(57) 321869547</li>
+        <li><i class="fas fa-phone"></i> 321654987</li>
+        <li><i class="fas fa-map-marker-alt"></i> Bogotá, D.C, Colombia</li>
+        <li><i class="fas fa-envelope"></i> Serviciosmovilidad@tupatineta.com</li>
+      </ul>
+    </div>
+    <div class="col-md-6 d-flex align-items-start justify-content-center">
+      <ul class="social-icons list-unstyled">
+        <li><a href="https://www.instagram.com" target="_blank" class="social-link"><i class="fab fa-instagram fa-2x"></i> @TupatinetaTeMueve</a></li>
+        <li><a href="https://www.facebook.com" target="_blank" class="social-link"><i class="fab fa-facebook fa-2x"></i> @Tupatineta</a></li>
+        <li><a href="https://www.tiktok.com" target="_blank" class="social-link"><i class="fab fa-tiktok fa-2x"></i> @TupatinetaTeMueve</a></li>
+        <li><a href="https://www.linkedin.com" target="_blank" class="social-link"><i class="fab fa-linkedin fa-2x"></i> @TupatinetaMovilidad</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+  <!-- final de pagina, tambien se replica en todos los modulos -->
+<footer>
+  <div class="container1 mb-8">
+    <span>&copy; 2024-2 Made by Santiago Cruz - Desarrollo de Software Back End</span>
+  </div>
+</footer>
